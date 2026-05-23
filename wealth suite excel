@@ -1,0 +1,139 @@
+QUESTIONS	OPTION A	OPTION B	OPTION C	OPTION D	
+Which of the following framework allows Front Office Portfolio Management and Front Office CRM to communicate with Core Banking	Integration Framework	Interaction Framework	Design framework	None of the above	
+"When inputting a mutual fund purchase order within Front Office, 
+which function is performed by Core Banking?"	Calculate credit limits	Calculate fees and taxes	Both answers are false	Both answers are true	
+"Within Wealth Suite, which of the following order types would get created
+in Core Banking as opposed to Front Office?"	Forex	Investments	Derivatives 	Securities	
+In an integrated WealthSuite setup, "Fees & Charges" are typically owned by?	Data Source	Front Office PM	Core Banking	Front office CRM	
+Front office communicates with which of the following systems for orders	Core Banking	"External Order 
+Management System (OMS)"	"Core Banking &
+ External OMS"	None of the above	
+TTI flows are based on the data triggers	TRUE	FALSE			
+In which level is the Maker- Checker (4 eyes validation) applied?	TTI	Front Office	OMS	Back Office	
+"From the below which of the following is NOT part of the Front Office
+PM Module?"	"Pre-Trade Compliance 
+Checks"	"Performance 
+calculations"	Portfolio Rebalancing	Customer Management	
+"From the below which of the following is NOT part of the Front Office CRM
+Module"	Client Data Management	"Relationship 
+Management"	Prospect Management	"Client Portfolio 
+Rebalancing"	
+Reporting in Front Office PM use Actuate	TRUE	FALSE			
+"When inputting a stock purchase order within Front Office, which function is
+performed by Core Banking?"	Settlement of the trade	Sanity check	Both answers are true	Both answers are false	
+For which of the following data Core Banking is NOT a master	Client Data Management	Portfolios	Accounts	Investment Profiles	
+The GUI is used to connect to which system?	Front Office	Data Source	Core Bnaking	Business Intelligence	
+"Which among the below is not a functionality provided by WealthSuite
+FO PM Component - Portfolio Analysis?"	Performance	Future Cash Flow	Client Profiling	Valuation	
+"It is possible for a Bank to integrate our WSFO Channels into their existing
+workbench via an external call i.e Within the Bank's workbench Wealth Suite could exist as an iframe for the wealth management data"	FALSE	TRUE			
+"Front office receives executions directly from External Order Management
+systems"	TRUE	FALSE			
+"In the Standard setup of Wealth Suite, end-users would have access to the
+back-end/Core Banking via the Front-end/Front Office. Which of the following User to Front-end combinations is possible?"	Customer GUI	External Manager GUI	"Portfolio Manager-
+Browser"	Trading Desk-Browser	
+The ownership for price and issuer information is in:	Data Source	Front Office CRM	Core Banking	"Front Office Portfolio
+ Management"	
+"Which of the following type of order CANNOT be created from WealthSuite
+Front Office Channels application?"	Loans & Deposits	Mutual Fund	Stocks	Options	
+"Which of the following statements is true of the order flow under a Direct
+Market Access set up?"	"The OMS will send Core 
+Banking the execution details"	"The OMS will send a 
+message to Core 
+Banking that the order 
+has been Sent to the 
+Market"	"Front Office will advise
+Core Banking of any
+order executions"	"Front Office will advise 
+Core Banking once 
+order grouping takes 
+place"	
+"In the initial load, Front office receives from Core banking portfolio positions 
+as operations / transactions"	TRUE	FALSE			
+What does NOT interact with the Interaction Framework:	GUI	Channels	Channels and WUI	WUI	
+Which of the following statement is true	"TAP Service Layer (TSL) is 
+where the portfolio's
+pre-computed portfolio 
+data are calculated"	"Financial Servers handle
+ all the calculations like 
+performance"	"OData/IRIS Services 
+and Java APIs control 
+the communications to
+ external system"	All of the above	
+If a Bank has integrated WSFO with T24/Core Banking, the instrument data in T24 will act as Slave and the Instrument data in WSFO will act as Master	TRUE	FALSE			
+Which of the following functionality is NOT provided in standard WealthSuite Core Banking?	Reconciliation	Trade Appropriation	Price Data	Cash Management	
+Integration framework enables	"Changes made in the Core 
+Banking to immediately 
+reflect in the Portfolio 
+Management System"	"Orders initiated in the 
+Portfolio Management 
+systems gets 
+automatically 
+transmitted to Core 
+Banking system"	Both A and B	None of the above	
+"Which was the web based frontend which was used before moving to 
+WealthSuite Channels?"	GUI	TTI	ODATA 	WUI	
+"In Core Banking, a Customer record is made up of one or more Person 
+(Client) records"	TRUE	FALSE			
+How many portfolios a client can own?	At most one	"Any number of 
+portfolios"	"One portfolio per 
+resident country"	"One portfolio for each 
+type of security"	
+Relationship Managers access via which of the below front end(s):	Channels	"WUI (Web User 
+Interface)"	"GUI (Graphical User 
+Interface)"	Both Channels and WUI	
+"Front Office and Core Banking communicate with each other through which 
+of the following?"	Interaction framework	Odata	Integration framework	IRIS	
+"Which of the following statements is true of the order flow under a 
+Non-Direct Market Access set up?"	"The OMS will send the 
+order execution details to 
+Front Office"	"The OMS will send to 
+Core Banking the 
+execution details"	"The OMS will send a 
+message to Front Office  that the order has  been placed on the Market "	"Front Office will advise 
+Core Banking of any 
+order executions"	
+"If a Bank does not implement Front Office CRM, then the Client Master 
+would be Core Banking"	TRUE	FALSE			
+The WUI can be used to perform which of the following functions?	"Maintenance of 
+instrument data"	"System Prameter 
+maintenance"	Portfolio valuations	"None of these options 
+are correct"	
+"Which of the following objects is loaded to the Front Office database from 
+Core Banking?"	Initial positions	Accounted operations	Securities data	"All of these options 
+apply"	
+In the Initial positions load, data flows from Front Office to Core Banking	TRUE	FALSE			
+"In an integrated WealthSuite setup, for which of the following data is 
+WealthSuite Front Office is typically the master of?"	Instruments	Orders  	Portfolios	Accounts	
+"In Wealth Suite, which of the following functionality would Front Office be the
+Master of Record?"	Portfolio and Client data	Position data	"Investment profiles 
+and Constraints"	Infrastructure data	
+"In Core Banking, we have the concept of a Customer. When Core Banking is 
+integrated with Front Office, what object will the Customer propagate to in 
+Front Office?"	Portfolio	Account 	Customer	Third Party	
+Which of the following statements is true of Channels?	"Is the designated interface 
+for administration"	"Can be used for system 
+configration"	"Can be used to access 
+Core Banking and 
+Front Office data"	"Enables the 
+maintenance of 
+infrastructure data"	
+What are the features that GUI offers:	Data Administration	Security Administration	System configuration	All of the above	
+Mail Merge package creation is a function of:	Data Source	"Front Office Portfolio 
+Management"	Front Office CRM	Core Banking	
+"Which of the following frontends of WealthSuite Front Office is typically used 
+for ""Data Administration"" & ""System Configuration""?"	Channels	Browser	GUI  	WUI	
+In Direct Market Access, Front office passes the order data to Core Banking.	TRUE	FALSE			
+"Which is the Temenos preferred application used to load Initial data for 
+Portfolios from WealthSuite Back Office to Wealth Suite Front Office?"	JBPM	TDS	UXP	TTI	
+Central Position Keeping System is a feature of:	"Front Office Portfolio 
+Managerment"	Data Source	Front Office CRM	Core Banking	"Both Data Source 
+and Core Banking"
+In an integrated WealthSuite setup, "Strategies" are typically owned by?	Data Source	Front Office PM	Core Banking	TTI	
+"Main purpose of TTI is to transfer order and trade related data between 
+Front office and Core Banking"	TRUE	FALSE			
+A Back Office user in a bank will typically use which of the following frontend  in WealthSuite?	Browser	GUI	WUI	Channels	
+In Host Comparison, Which of the following data is compared	Portfolio Positions	Investment Profiles	Portfolio & Accounts	Customer	
+Which element of the presentation layer has been traditionally used to enable an end-user to perform functions such as data administration, system configuration and security administration within Front Office?	Channels	WUI 	GUI	Browser	
+Within Wealth Suite, which of the following functions is performed by Core Banking but is displayed in Front Office? 	Loans	Lombard Valuation	Both answers are true	Both answers are false	
+Create, Read, Update and Delete is enabled by the Interaction Framework for: 	Only Front Office	Only Core Banking	Both Front Office and Core Banking	None of the options	
